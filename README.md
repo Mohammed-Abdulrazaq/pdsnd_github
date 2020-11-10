@@ -43,6 +43,13 @@ The program was written using `Python 3` and some libraries installed using `Ana
 * NumPy 
 * Pandas 
 ```
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+### Resources
+____________________________________________________________________________________________________________________________________________
+
+Here are some resources that I used when I was working in my project:
+
+* [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
+* [Basic writing and formatting syntax](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
+* [Python Standard Library](https://docs.python.org/3/library/)
+* [Online Markdown Editor](https://dillinger.io/)
 
