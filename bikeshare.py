@@ -169,6 +169,10 @@ def trip_duration_stats(df):
     max_travel_time= df['Trip Duration'].max()
     print('The maximum travel time is: ',max_travel_time/60, 'minutes')
 
+    # display minimum travel time (by minute)
+    min_travel_time= df['Trip Duration'].min()
+    print('The minimum travel time is: ',min_travel_time/60, 'minutes')
+
 
 def user_stats(df):
     """Displays statistics on bikeshare users."""
