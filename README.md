@@ -1,5 +1,7 @@
-### Date created
-Include the date you created this project and README file.
+### Exploring US Bike Share Data
+____________________________________________________________________________________________________________________________________________
+
+In this project, I used Python programming language to explore data provided by [Motivate](https://www.motivateco.com/), a bike share system provider for many major cities in the United States. I compared the system usage between three large cities: Chicago, New York City, and Washington, DC.
 
 ### Project Title
 Replace the Project Title
