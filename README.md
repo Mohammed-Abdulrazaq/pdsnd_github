@@ -3,8 +3,27 @@ ________________________________________________________________________________
 
 In this project, I used Python programming language to explore data provided by [Motivate](https://www.motivateco.com/), a bike share system provider for many major cities in the United States. I compared the system usage between three large cities: Chicago, New York City, and Washington, DC.
 
-### Project Title
-Replace the Project Title
+### The Datasets
+____________________________________________________________________________________________________________________________________________
+
+Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
+
+* Start Time (e.g., 2017-01-01 00:07:57)
+* End Time (e.g., 2017-01-01 00:20:53)
+* Trip Duration (in seconds - e.g., 776)
+* Start Station (e.g., Broadway & Barry Ave)
+* End Station (e.g., Sedgwick St & North Ave)
+* User Type (Subscriber or Customer)
+
+The Chicago and New York City files also have the following two columns:
+
+* Gender
+* Birth Year
+
+The image below shows the data for the first 10 rides in the **new_york_city.csv file**
+
+![Data for the first 10 rides in the **new_york_city.csv file**](https://video.udacity-data.com/topher/2018/March/5aa771dc_nyc-data/nyc-data.png)
+
 
 ### Description
 Describe what your project is about and what it does
