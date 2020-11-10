@@ -223,6 +223,22 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+
+def rows_of_data(df):
+    
+    """print 5 rows of the data at a time, then ask the users if they would like to see 5 more rows of the data or no"""
+
+    print_data = input('\nWould you like to see 5 more rows ot the data or no. Type yes or no:\n')
+    if print_data == 'yes':
+        row_start = 0
+        row_end=5
+        while (row_end < df['Start Time'].count()):
+            print(df.iloc[row_start:row_end])
+            row_start +=5
+            row_end +=5
+            extra_rows = input('\nWould you like to see 5 more rows ot the data or no. Type yes or no:\n')
+            if extra_rows == 'no':
+                break
     
 
                 
@@ -235,6 +251,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
+        rows_of_data(df)
         
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
