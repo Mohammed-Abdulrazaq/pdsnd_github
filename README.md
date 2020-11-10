@@ -34,9 +34,15 @@ To answer the statistical questions regarding the bike share system, I created a
 * new_york_city.csv
 * washington.csv
 
-### Files used
-Include the files used
+### Software
+____________________________________________________________________________________________________________________________________________
 
+The program was written using `Python 3` and some libraries installed using `Anaconda`:
+```
+* time
+* NumPy 
+* Pandas 
+```
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
