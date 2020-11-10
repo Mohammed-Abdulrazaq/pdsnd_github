@@ -25,8 +25,14 @@ The image below shows the data for the first 10 rides in the **new_york_city.csv
 ![Data for the first 10 rides in the **new_york_city.csv file**](https://video.udacity-data.com/topher/2018/March/5aa771dc_nyc-data/nyc-data.png)
 
 
-### Description
-Describe what your project is about and what it does
+### The Files
+____________________________________________________________________________________________________________________________________________
+
+To answer the statistical questions regarding the bike share system, I created a Python script to help guide my work in this project. The code with helper comments are provided in a **bikeshare** file. Also, I needed the three city dataset files too:
+
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Files used
 Include the files used
